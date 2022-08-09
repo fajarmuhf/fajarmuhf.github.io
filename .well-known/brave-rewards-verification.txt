@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: fajarmuhf.github.io
+Token: c52108c191230c813e608ae3f58a6f9b5073efc5ed18f3b1a10a25c228398466
