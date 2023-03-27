@@ -180,23 +180,8 @@
 	</style>
 </head>
 <body>
-	<form id='daftar' method="GET">
+	<form id='daftar' method="GET" action="https://fajarlive92.000webhostapp.com/">
 		<button>Al Muhajirin Control</button>
 	</form>
-	<script type="text/javascript">
-		const url = "https://api.ngrok.com/endpoints";
-		const token = "2NY1UHbcWdWRPq9najLS6W9C6RH_5ZczrAGW6PxLqcss5BqkA";
-		const method = "GET";
-
-		fetch(url,{
-			method,
-			headers: {
-				"Authorization" : "Bearer "+token,
-				"Ngrok-Version" : 2
-			}
-		}).then(res => res.json().then((data) => {
-			document.getElementById("daftar").action = data.endpoints[0].public_url+"/tv-digital-masjid/write.php";
-		})).catch(console.error);
-	</script>
 </body>
 </html>
